@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { animateScroll as scroll } from 'react-scroll';
 import { Link } from 'react-scroll';
 import { Button } from '../../ButtonElements.js';
 import { 
@@ -18,13 +17,6 @@ import {
     ArrowForward, 
     ArrowRight
 } from './AboutElements';
-
-const activeScroll = () => {
-    scroll.scrollMore()
-}
-
-// const AboutSection = () => {
-//     const [hover, setHover] = useState(false)
 
 
 const AboutSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2, buttonAddress }) => {

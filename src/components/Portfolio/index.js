@@ -1,5 +1,5 @@
 import React from 'react'
-import { PortfolioContainer, PortfolioH1, PortfolioWrapper, PortfolioCard, PortfolioIcon, PortfolioH2, PortfolioP, PortfolioBtnWrap, PortfolioBg, PortfolioVideoBg, a } from './PortfolioElements';
+import { PortfolioContainer, PortfolioH1, PortfolioWrapper, PortfolioCard, PortfolioIcon, PortfolioH2, PortfolioP, PortfolioBtnWrap } from './PortfolioElements';
 import Eth1 from '../../images/eth_logo_1.svg';
 import Sol1 from '../../images/sol_logo_1.svg';
 // import Bsc1 from '../../images/bsc_logo_1.svg';
