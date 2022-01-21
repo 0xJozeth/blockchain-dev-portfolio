@@ -23,6 +23,7 @@ const Portfolio = ({lightBg, id, imgStart, topLine, lightText, headline, darkTex
                         <Button>
                                 <a 
                                 href="https://github.com/0xJozeth/CryptoBank" 
+                                target="_blank"
                                 style={{color: '#fff', textDecoration:"none" }} 
                                 smooth={true}
                                 duration={500}
@@ -46,6 +47,7 @@ const Portfolio = ({lightBg, id, imgStart, topLine, lightText, headline, darkTex
                             <Button>
                                 <a 
                                 href="https://github.com/0xJozeth/Solana-Web3-Portal.git" 
+                                target="_blank"
                                 style={{color: '#fff', textDecoration:"none" }}  
                                 smooth={true}
                                 duration={500}
@@ -68,6 +70,7 @@ const Portfolio = ({lightBg, id, imgStart, topLine, lightText, headline, darkTex
                             <Button>
                                 <a 
                                 href="https://github.com/0xJozeth/weather-react-app.git" 
+                                target="_blank"
                                 style={{color: '#fff', textDecoration:"none" }}  
                                 smooth={true}
                                 duration={500}

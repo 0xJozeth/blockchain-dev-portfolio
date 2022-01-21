@@ -39,7 +39,7 @@ const AboutSection = ({lightBg, id, imgStart, topLine, lightText, headline, dark
                         <BtnWrap>
                             <Link>
                             <Button>
-                                <a href="emailto:glen.f.graham@gmail.com"
+                                <a href="emailto:glen.f.graham@gmail.com" target="_blank"
                                 style={{color: '#fff', textDecoration:"none" }}  
                                 smooth={true}
                                 duration={500}
