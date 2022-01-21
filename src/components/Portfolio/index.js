@@ -6,6 +6,7 @@ import Sol1 from '../../images/sol_logo_1.svg';
 import Cloudy from '../../images/cloudy.png';
 // import EthVid3 from '../../videos/eth_video_3_comp.mp4';
 import { Button } from '../../ButtonElements';
+import { ExternalLink } from 'react-external-link';
 
 
 const Portfolio = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2, buttonAddress }) => {
@@ -21,9 +22,10 @@ const Portfolio = ({lightBg, id, imgStart, topLine, lightText, headline, darkTex
                         </PortfolioP>
                         <PortfolioBtnWrap>
                         <Button>
-                                <a 
+                                <ExternalLink 
                                 href="https://github.com/0xJozeth/CryptoBank" 
                                 target="_blank"
+                                rel="noreferrer"
                                 style={{color: '#fff', textDecoration:"none" }} 
                                 smooth={true}
                                 duration={500}
@@ -33,7 +35,7 @@ const Portfolio = ({lightBg, id, imgStart, topLine, lightText, headline, darkTex
                                 primary={primary ? 1 : 0}
                                 dark={dark ? 1 : 0}
                                 dark2={dark2 ? 1 : 0}>View Source Code
-                                </a>
+                                </ExternalLink>
                             </Button>
                         </PortfolioBtnWrap>
                 </PortfolioCard>
@@ -48,6 +50,7 @@ const Portfolio = ({lightBg, id, imgStart, topLine, lightText, headline, darkTex
                                 <a 
                                 href="https://github.com/0xJozeth/Solana-Web3-Portal.git" 
                                 target="_blank"
+                                rel="noreferrer"
                                 style={{color: '#fff', textDecoration:"none" }}  
                                 smooth={true}
                                 duration={500}
@@ -71,6 +74,7 @@ const Portfolio = ({lightBg, id, imgStart, topLine, lightText, headline, darkTex
                                 <a 
                                 href="https://github.com/0xJozeth/weather-react-app.git" 
                                 target="_blank"
+                                rel="noreferrer"
                                 style={{color: '#fff', textDecoration:"none" }}  
                                 smooth={true}
                                 duration={500}

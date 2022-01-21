@@ -42,6 +42,7 @@ const CodeSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                             <Button>
                                 <a href="https://github.com/0xjozeth" 
                                 target="_blank"
+                                rel="noreferrer"
                                 style={{color: '#fff', textDecoration:"none" }}  
                                 smooth={true}
                                 duration={500}
