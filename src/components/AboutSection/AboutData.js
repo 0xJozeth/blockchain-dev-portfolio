@@ -1,0 +1,17 @@
+export const homeObjOne = {
+    id: 'about',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'About Me',
+    headline: "About Me Section",
+    description: 'I\'m a Jacksonville-based blockchain engineer who specializes in building smart contracts on the Ethereum blockchain. This is a collection of my past works in blockchain technology. A few technologies I\'ve been working with recently are:',
+    descriptionList: 'Solidity, Javascript (ES6+), React, Wordpress, Node.js, Solana, and Rust.',
+    buttonLabel: 'Get In Touch',
+    imgStart: false,
+    img: require('../../images/vr_svg_1.svg'),
+    alt: 'aboutme',
+    dark: true,
+    primary: true,
+    darkText: false,
+};
