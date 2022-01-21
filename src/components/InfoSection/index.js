@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '../ButtonElements';
+import { Button } from '/Volumes/Extreme SSD/Coding/my-portfolio/src/Buttons/ButtonElements.js';
 // import logo from '../../images/eth_1.svg';
 import { 
     InfoContainer, 

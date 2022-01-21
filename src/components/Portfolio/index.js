@@ -5,7 +5,7 @@ import Sol1 from '../../images/sol_logo_1.svg';
 // import Bsc1 from '../../images/bsc_logo_1.svg';
 import Cloudy from '../../images/cloudy.png';
 // import EthVid3 from '../../videos/eth_video_3_comp.mp4';
-import { Button } from '/Volumes/Extreme SSD/Coding/my-portfolio/src/components/ButtonElements.js';
+import { Button } from '/Volumes/Extreme SSD/Coding/my-portfolio/src/Buttons/ButtonElements.js';
 
 
 const Portfolio = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2, buttonAddress }) => {
@@ -17,7 +17,7 @@ const Portfolio = ({lightBg, id, imgStart, topLine, lightText, headline, darkTex
                     <PortfolioIcon src={Eth1} style={{ width: 100, height: 100 }} alt='Ethereum-logo' />
                     <PortfolioH2>Ethereum Bank Contract</PortfolioH2>
                     <PortfolioP>An Ethereum smart contract capable of facilitating 
-                        ERC20 token deposits, withdrawals and more. Built using Remix IDE and the Ropsten Test Network.
+                        ERC-20 token deposits, withdrawals and more. Built using Remix IDE and the Ropsten Test Network.
                         </PortfolioP>
                         <PortfolioBtnWrap>
                         <Button>

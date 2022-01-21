@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { animateScroll as scroll } from 'react-scroll';
 import { Link } from 'react-scroll';
-import { Button } from '../ButtonElements';
+import { Button } from '/Volumes/Extreme SSD/Coding/my-portfolio/src/Buttons/ButtonElements.js';
 import { 
     AboutContainer, 
     AboutWrapper, 
