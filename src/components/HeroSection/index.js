@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './HeroSection.css';
 import Video from '../../videos/eth_video_1_comp.mp4'
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements';
-import { Button } from '/Volumes/Extreme SSD/Coding/my-portfolio/src/Buttons/HeroButtonElements.js';
+import { Button } from '../../HeroButtonElements.js';
 import { animateScroll as scroll } from 'react-scroll';
 import { Link } from 'react-scroll';
 

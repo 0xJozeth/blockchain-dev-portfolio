@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '/Volumes/Extreme SSD/Coding/my-portfolio/src/Buttons/ButtonElements.js';
+import { Button } from '../../ButtonElements.js';
 import { 
     ConnectContainer, 
     ConnectWrapper, 

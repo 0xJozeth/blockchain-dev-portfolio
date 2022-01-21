@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button } from '/Volumes/Extreme SSD/Coding/my-portfolio/src/Buttons/ButtonElements.js';
+import { Button } from '../../ButtonElements.js';
 import { Link } from 'react-scroll';
 import { 
     CodeContainer, 
