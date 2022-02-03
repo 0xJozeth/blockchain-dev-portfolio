@@ -1,10 +1,18 @@
 import styled from "styled-components";
-import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
-export const AboutContainer = styled.div`
+export const CoinbaseBg = styled.div`
+	background-image: require("../../images/coinbase-bg.png");
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	background-size: cover;
+	background-position: center;
+`;
+
+export const CoinbaseContainer = styled.div`
 	min-height: 100vh;
 	color: #fff;
-	background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#000e23")};
+	// background: ${({ lightBg }) => (lightBg ? "#003" : "#000e23")};
 
 	@media screen and (max-width: 768px) {
 		padding: 100px 0;
@@ -13,7 +21,7 @@ export const AboutContainer = styled.div`
 // #f9f9f9' : '#010606
 // #000e23
 
-export const AboutWrapper = styled.div`
+export const CoinbaseWrapper = styled.div`
 	display: grid;
 	z-index: 1;
 	height: 1000px;
@@ -25,7 +33,7 @@ export const AboutWrapper = styled.div`
 	justify-content: center;
 `;
 
-export const AboutRow = styled.div`
+export const CoinbaseRow = styled.div`
 	display: grid;
 	grid-auto-columns: minmax(auto, 1fr);
 	align-items: center;
@@ -89,37 +97,18 @@ export const Subtitle = styled.p`
 export const BtnWrap = styled.div`
 	display: flex;
 	justify-content: flex-start;
-
-	@media screen and (max-width: 768px) {
-		display: grid;
-	}
 `;
 
-export const AboutImgWrap = styled.div`
+export const ImgWrap = styled.div`
 	max-width: 555px;
 	height: 100%;
 `;
 
-export const AboutImg = styled.img`
+export const Img = styled.img`
 	width: 100%;
 	margin: 0 0 10px 0;
-	padding-bottom: 20px;
 	padding-right: 0;
 	// maxWidth= '100%'
-
-	@media screen and (max-width: 480px) {
-		font-size: 32px;
-	}
-`;
-
-export const ArrowForward = styled(MdArrowForward)`
-	margin-left: 8px;
-	font-size: 20px;
-`;
-
-export const ArrowRight = styled(MdKeyboardArrowRight)`
-	margin-left: 8px;
-	font-size: 20px;
 `;
 
 // export const Logo = styled.svg`

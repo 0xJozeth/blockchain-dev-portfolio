@@ -48,7 +48,7 @@ const Footer = () => {
 					<FooterLinksWrapper>
 						<FooterLinkItems>
 							<FooterLinkTitle>Quick Links</FooterLinkTitle>
-							<FooterLink to="/" onClick={toggleHome}>
+							<FooterLink to='/' onClick={toggleHome}>
 								Home
 							</FooterLink>
 							<StyledFooterLinks onClick={openGithub}>GitHub</StyledFooterLinks>
@@ -64,7 +64,7 @@ const Footer = () => {
 				<SocialMedia>
 					<SocialMediaWrap>
 						<SocialLogoContainer>
-							<SocialLogo to="\" onClick={toggleHome}>
+							<SocialLogo to='\' onClick={toggleHome}>
 								GLEN GRAHAM
 							</SocialLogo>
 						</SocialLogoContainer>
@@ -73,30 +73,30 @@ const Footer = () => {
 						</WebsiteRights>
 						<SocialIcons>
 							<SocialIconLink
-								href="https://github.com/0xJozeth"
-								target="_blank"
-								aria-label="Github"
+								href='https://github.com/0xJozeth'
+								target='_blank'
+								aria-label='Github'
 							>
 								<FaGithub />
 							</SocialIconLink>
 							<SocialIconLink
-								href="https://linkedin.com/in/glenfgraham"
-								target="_blank"
-								aria-label="LinkedIn"
+								href='https://linkedin.com/in/glenfgraham'
+								target='_blank'
+								aria-label='LinkedIn'
 							>
 								<FaLinkedin />
 							</SocialIconLink>
 							<SocialIconLink
-								href="https://twitter.com/0xjozeth"
-								target="_blank"
-								aria-label="Twitter"
+								href='https://twitter.com/'
+								target='_blank'
+								aria-label='Twitter'
 							>
 								<FaTwitter />
 							</SocialIconLink>
 							<SocialIconLink
-								href="emailto:glen.f.graham@gmail.com"
-								target="_blank"
-								aria-label="Email"
+								href='emailto:glen.f.graham@gmail.com'
+								target='_blank'
+								aria-label='Email'
 							>
 								<MdEmail />
 							</SocialIconLink>

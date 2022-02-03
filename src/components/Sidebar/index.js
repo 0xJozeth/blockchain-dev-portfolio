@@ -23,21 +23,24 @@ const Sidebar = ({ isOpen, toggle }) => {
 			</Icon>
 			<SidebarWrapper>
 				<SidebarMenu>
-					<SidebarLink to="about" onClick={toggle}>
+					<SidebarLink to='about' onClick={toggle}>
 						About
 					</SidebarLink>
-					<SidebarLink to="github" onClick={toggle}>
+					<SidebarLink to='github' onClick={toggle}>
 						Github
 					</SidebarLink>
-					<SidebarLink to="portfolio" onClick={toggle}>
+					<SidebarLink to='coinbase' onClick={toggle}>
+						Featured
+					</SidebarLink>
+					<SidebarLink to='portfolio' onClick={toggle}>
 						Portfolio
 					</SidebarLink>
-					<SidebarLink to="contact" onClick={toggle}>
+					<SidebarLink to='contact' onClick={toggle}>
 						Contact
 					</SidebarLink>
 				</SidebarMenu>
 				<SideBtnWrap>
-					<SidebarRoute to="contact" onClick={openLinkedIn}>
+					<SidebarRoute to='contact' onClick={openLinkedIn}>
 						Visit LinkedIn
 					</SidebarRoute>
 				</SideBtnWrap>

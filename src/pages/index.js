@@ -1,42 +1,53 @@
-import React,  {useState} from 'react';
-import Sidebar from '../components/Sidebar';
-import Navbar from '../components/Navbar';
-import HeroSection from '../components/HeroSection';
-import InfoSection from '../components/InfoSection';
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour, homeObjFive, homeObjSix } from '../components/InfoSection/Data';
-import Portfolio from '../components/Portfolio';
-import Footer from '../components/Footer';
-import AboutSection from '../components/AboutSection';
-import CodeSection from '../components/CodeSection';
-import ConnectSection from '../components/ConnectSection';
+import React, { useState } from "react";
+import Sidebar from "../components/Sidebar";
+import Navbar from "../components/Navbar";
+import HeroSection from "../components/HeroSection";
+import InfoSection from "../components/InfoSection";
+import {
+	homeObjOne,
+	homeObjTwo,
+	homeObjThree,
+	homeObjFour,
+	homeObjFive,
+	homeObjSix,
+} from "../components/InfoSection/Data";
+import Portfolio from "../components/Portfolio";
+import Footer from "../components/Footer";
+import AboutSection from "../components/AboutSection";
+import CodeSection from "../components/CodeSection";
+import ConnectSection from "../components/ConnectSection";
+import CoinbaseProject from "../components/CoinbaseProject";
+import { coinbaseObjOne } from "../components/CoinbaseProject/Data";
+import SolanaProject from "../components/SolanaProject";
+import { solanaObjOne } from "../components/SolanaProject/Data";
 
 const Home = () => {
-    const [isOpen, setIsOpen] = useState(false);
+	const [isOpen, setIsOpen] = useState(false);
 
-    const toggle = () => {
-        setIsOpen(!isOpen);
-    };
+	const toggle = () => {
+		setIsOpen(!isOpen);
+	};
 
-
-
-    return (
-        <>
-         <Sidebar isOpen={isOpen} toggle={toggle} />
-         <Navbar toggle={toggle} />
-         <HeroSection />
-         <AboutSection {...homeObjOne} />
-         {/* <InfoSection {...homeObjOne} /> */}
-         <CodeSection {...homeObjTwo} />
-         {/* <InfoSection {...homeObjTwo} /> */}
-         <Portfolio />
-         {/* <InfoSection {...homeObjThree} />
+	return (
+		<>
+			<Sidebar isOpen={isOpen} toggle={toggle} />
+			<Navbar toggle={toggle} />
+			<HeroSection />
+			<AboutSection {...homeObjOne} />
+			{/* <InfoSection {...homeObjOne} /> */}
+			<CodeSection {...homeObjTwo} />
+			{/* <InfoSection {...homeObjTwo} /> */}
+			<CoinbaseProject {...coinbaseObjOne} />
+			<SolanaProject {...solanaObjOne} />
+			<Portfolio />
+			{/* <InfoSection {...homeObjThree} />
          <InfoSection {...homeObjFour} /> */}
-         {/* <InfoSection {...homeObjFive} /> */}
-         <ConnectSection {...homeObjSix} />
-         {/* <InfoSection {...homeObjSix} /> */}
-         <Footer />
-        </>
-    );
+			{/* <InfoSection {...homeObjFive} /> */}
+			<ConnectSection {...homeObjSix} />
+			{/* <InfoSection {...homeObjSix} /> */}
+			<Footer />
+		</>
+	);
 };
 
 export default Home;

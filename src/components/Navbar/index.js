@@ -44,7 +44,7 @@ const Navbar = ({ primary, dark, dark2, toggle }) => {
 			<IconContext.Provider value={{ color: "#fff" }}>
 				<Nav scrollNav={scrollNav}>
 					<NavbarContainer>
-						<NavLogo to="/" onClick={toggleHome}>
+						<NavLogo to='/' onClick={toggleHome}>
 							Glen Graham
 						</NavLogo>
 						<MobileIcon onClick={toggle}>
@@ -53,11 +53,11 @@ const Navbar = ({ primary, dark, dark2, toggle }) => {
 						<NavMenu>
 							<NavItem>
 								<NavLinks
-									to="about"
+									to='about'
 									smooth={true}
 									duration={500}
 									spy={true}
-									exact="true"
+									exact='true'
 									offset={-80}
 								>
 									About
@@ -66,11 +66,11 @@ const Navbar = ({ primary, dark, dark2, toggle }) => {
 
 							<NavItem>
 								<NavLinks
-									to="github"
+									to='github'
 									smooth={true}
 									duration={500}
 									spy={true}
-									exact="true"
+									exact='true'
 									offset={-80}
 								>
 									My Github
@@ -79,11 +79,24 @@ const Navbar = ({ primary, dark, dark2, toggle }) => {
 
 							<NavItem>
 								<NavLinks
-									to="portfolio"
+									to='coinbase'
 									smooth={true}
 									duration={500}
 									spy={true}
-									exact="true"
+									exact='true'
+									offset={-80}
+								>
+									Featured Projects
+								</NavLinks>
+							</NavItem>
+
+							<NavItem>
+								<NavLinks
+									to='portfolio'
+									smooth={true}
+									duration={500}
+									spy={true}
+									exact='true'
 									offset={-80}
 								>
 									Portfolio
@@ -92,11 +105,11 @@ const Navbar = ({ primary, dark, dark2, toggle }) => {
 
 							<NavItem>
 								<NavLinks
-									to="contact"
+									to='contact'
 									smooth={true}
 									duration={500}
 									spy={true}
-									exact="true"
+									exact='true'
 									offset={-80}
 								>
 									Contact
@@ -140,7 +153,7 @@ const Navbar = ({ primary, dark, dark2, toggle }) => {
 								smooth={true}
 								duration={500}
 								spy={true}
-								exact="true"
+								exact='true'
 								offset={-80}
 								primary={primary ? 1 : 0}
 								dark={dark ? 1 : 0}

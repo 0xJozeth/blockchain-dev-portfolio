@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
 export const CodeContainer = styled.div`
+	min-height: 100vh;
 	color: #fff;
 	background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#000e23")};
 
